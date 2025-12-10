@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ExchangeRateProvider.Api.props" />
+</Project>
