@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ExchangeRateProvider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj": {}
+    "D:\\Exchange-Rate-Provider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj": {}
   },
   "projects": {
-    "D:\\ExchangeRateProvider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj": {
+    "D:\\Exchange-Rate-Provider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ExchangeRateProvider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj",
+        "projectUniqueName": "D:\\Exchange-Rate-Provider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj",
         "projectName": "ExchangeRateProvider.Api",
-        "projectPath": "D:\\ExchangeRateProvider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj",
+        "projectPath": "D:\\Exchange-Rate-Provider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj",
         "packagesPath": "C:\\Users\\pdegu\\.nuget\\packages\\",
-        "outputPath": "D:\\ExchangeRateProvider\\Backend\\ExchangeRateProvider.Api\\obj\\",
+        "outputPath": "D:\\Exchange-Rate-Provider\\Backend\\ExchangeRateProvider.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pdegu\\AppData\\Roaming\\NuGet\\NuGet.Config"

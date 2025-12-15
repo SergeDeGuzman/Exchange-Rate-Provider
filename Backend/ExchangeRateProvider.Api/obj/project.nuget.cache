@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tykRryUYGaQ=",
+  "dgSpecHash": "vU9RzHeqndQ=",
   "success": true,
-  "projectFilePath": "D:\\ExchangeRateProvider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj",
+  "projectFilePath": "D:\\Exchange-Rate-Provider\\Backend\\ExchangeRateProvider.Api\\ExchangeRateProvider.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pdegu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.22\\microsoft.aspnetcore.openapi.8.0.22.nupkg.sha512",
     "C:\\Users\\pdegu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
