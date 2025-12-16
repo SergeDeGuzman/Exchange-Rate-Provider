@@ -1,0 +1,41 @@
+<div class="rate-container">
+  <h1>CNB Daily Exchange Rates</h1>
+
+  <div *ngIf="isLoading" class="alert alert-info">Fetching data from CNB API...</div>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    <p>Error: {{ errorMessage }}</p>
+  </div>
+
+  <ng-container *ngIf="dailyRates$ | async as rates">
+    <table class="exchange-rate-table">
+      <thead>
+        <tr>
+          <th>Date Valid For</th>
+          <th>Country</th>
+          <th>Currency</th>
+          <th>Code</th>
+          <th>Amount</th>
+          <th>Rate (CZK)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rate of rates.rates">
+          <td>{{ rate.validFor | date : 'shortDate' }}</td>
+
+          <td>{{ rate.country }}</td>
+
+          <td>{{ rate.currency }}</td>
+
+          <td>
+            <strong>{{ rate.currencyCode }}</strong>
+          </td>
+
+          <td>{{ rate.amount | number }}</td>
+
+          <td>{{ rate.rate | number : '1.4-4' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </ng-container>
+</div>

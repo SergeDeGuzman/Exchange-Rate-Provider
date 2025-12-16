@@ -1,6 +1,6 @@
-var builder = WebApplication.CreateBuilder(args);
-
 const string AngularClientPolicy = "_angularClientPolicy";
+
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
@@ -14,12 +14,17 @@ builder.Services.AddCors(options =>
                       });
 });
 
-builder.Services.AddHttpClient();
-
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Register IHttpClientFactory for efficient HTTP client management
+builder.Services.AddHttpClient(); 
+
+// Register the custom provider
+builder.Services.AddScoped< CnbExchangeRateProvider>();
+
 
 var app = builder.Build();
 
@@ -31,7 +36,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 
 app.UseCors(AngularClientPolicy);
 
@@ -53,3 +57,4 @@ app.MapGet("/api/rates/daily", async (CnbExchangeRateProvider provider) =>
 .WithOpenApi();
 
 app.Run();
+

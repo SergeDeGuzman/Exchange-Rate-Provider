@@ -1,7 +1,7 @@
 using ExchangeRateProvider.Api.Models;
 using System.Text.Json;
 
-public class CnbExchangeRateProvider
+public class CnbExchangeRateProvider 
 {
     private readonly HttpClient _httpClient;
     private const string CnbApiBaseUrl = "https://api.cnb.cz"; 
@@ -12,11 +12,11 @@ public class CnbExchangeRateProvider
         _httpClient.BaseAddress = new Uri(CnbApiBaseUrl);
     }
 
-        public async Task<DailyExchangeRates> GetDailyRatesAsync()
+    public async Task<DailyExchangeRates> GetDailyRatesAsync()
     {
         var response = await _httpClient.GetAsync("cnbapi/exrates/daily"); 
 
-        // Error Handling: Throws an exception on HTTP failure 
+        // Error Handling: Throws an exception on HTTP failure (4xx, 5xx status)
         response.EnsureSuccessStatusCode(); 
 
         var jsonStream = await response.Content.ReadAsStreamAsync();
@@ -25,5 +25,4 @@ public class CnbExchangeRateProvider
 
         return rates ?? new DailyExchangeRates();
     }
-
-    }
+}

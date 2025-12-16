@@ -1,0 +1,40 @@
+#--------------------------------------------------------------------------------
+# Visual Studio / .NET / C# related files
+#--------------------------------------------------------------------------------
+
+## Build and Compilation Artifacts ##
+# Compiled output directories
+[Bb]in/
+[Oo]bj/
+# Test results
+*.trx
+*.dll.config
+# Symbol files for debugging
+*.pdb
+# Temporary files used during compilation
+*.i
+*.ipdb
+*.iobj
+
+## Solution User Options and VS Generated Folders ##
+# Solution User Options file (contains personalized settings)
+*.suo
+# Hidden Visual Studio folder containing temporary files
+.vs/
+# Backup files
+*.bak
+# Log files
+*.log
+# User-specific project files (sometimes used for web project settings)
+*.user
+*.userprefs
+
+## Package Files (NuGet) ##
+# NuGet's package restoration files
+*.nupkg
+# Older style package folder (modern .NET uses global cache)
+[Pp]ackages/
+# The project dependency file
+project.assets.json
+# NuGet's generated files in the user profile
+.nuget/
