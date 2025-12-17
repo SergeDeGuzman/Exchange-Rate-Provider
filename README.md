@@ -1,4 +1,4 @@
-Instructions:
+Instructions:<br>
 
 
 
@@ -8,7 +8,7 @@ Uses the Https port (7125) instead of default Http port (5112), it follows the m
 
 Run the application using the HTTPS profile:
 
-dotnet run --launch-profile https
+dotnet run --launch-profile https <br>
 
 
 
@@ -20,7 +20,7 @@ npm install
 
 Start the development server:
 
-ng serve
+ng serve <br>
 
 
 
