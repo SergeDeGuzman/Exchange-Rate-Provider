@@ -1,5 +1,7 @@
 Instructions:
 
+
+
 Navigate to the backend folder Backend/ExchangeRateProvider.Api
 
 Uses the Https port (7125) instead of default Http port (5112), it follows the modern web services
@@ -7,6 +9,8 @@ Uses the Https port (7125) instead of default Http port (5112), it follows the m
 Run the application using the HTTPS profile:
 
 dotnet run --launch-profile https
+
+
 
 Navigate to the frontend folder Frontend/ExchangeRateProvider.Client
 
@@ -17,5 +21,7 @@ npm install
 Start the development server:
 
 ng serve
+
+
 
 Go to http://localhost:4200/
