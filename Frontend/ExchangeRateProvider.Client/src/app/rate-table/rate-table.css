@@ -1,35 +1,97 @@
-/* Frontend/ExchangeRateProvider.Client/src/app/rate-table/rate-table.component.css */
+/* Container styling */
+.rate-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+}
 
+/* Header Section */
+.header-section {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-bottom: 3px solid #0056b3;
+}
+
+.header-section h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header-section h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #666;
+}
+
+/* Table Styling */
 .exchange-rate-table {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  font-family: Arial, sans-serif;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden; /* Ensures the border-radius shows */
 }
 
 .exchange-rate-table th {
-  background-color: #f4f4f4;
-  color: #333;
-  padding: 12px 15px;
+  background-color: #0056b3;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
   text-align: left;
-  border-bottom: 2px solid #ddd;
+  text-transform: uppercase;
+  font-size: 0.85rem;
 }
 
 .exchange-rate-table td {
-  padding: 10px 15px;
-  border-bottom: 1px solid #eee;
-  text-align: left;
+  padding: 1rem;
+  border-bottom: 1px solid #edf2f7;
+  font-size: 0.95rem;
 }
 
-.exchange-rate-table tr:hover {
-  background-color: #f9f9f9;
+.exchange-rate-table tbody tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.exchange-rate-table tbody tr:hover {
+  background-color: #f1f5f9;
+  transition: background-color 0.2s ease;
+}
+
+.currency-code {
+  background-color: #e2e8f0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.alert {
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.alert-info {
+  background-color: #e1effe;
+  color: #1e429f;
+  border: 1px solid #bcdefa;
 }
 
 .alert-danger {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid #f5c6cb;
-  border-radius: 4px;
-  color: #721c24;
-  background-color: #f8d7da;
+  background-color: #fde8e8;
+  color: #9b1c1c;
+  border: 1px solid #f8b4b4;
 }
