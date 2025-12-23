@@ -17,7 +17,8 @@
   border-bottom: 3px solid #0056b3;
 }
 
-.header-section h1 {
+h1 {
+  text-align: center;
   margin: 0;
   font-size: 1.8rem;
   color: #222;

@@ -53,11 +53,6 @@ D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\Exch
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\ExchangeRateProvider.Api.sourcelink.json
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets.development.json
-D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets\msbuild.ExchangeRateProvider.Api.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.ExchangeRateProvider.Api.props
-D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ExchangeRateProvider.Api.props
-D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ExchangeRateProvider.Api.props
-D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\scopedcss\bundle\ExchangeRateProvider.Api.styles.css
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\Exchange.67CA1114.Up2Date
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\ExchangeRateProvider.Api.dll
@@ -65,3 +60,11 @@ D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\refi
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\ExchangeRateProvider.Api.pdb
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\ExchangeRateProvider.Api.genruntimeconfig.cache
 D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\ref\ExchangeRateProvider.Api.dll
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\bin\Debug\net8.0\ExchangeRateProvider.Api.staticwebassets.endpoints.json
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Exchange-Rate-Provider\Backend\ExchangeRateProvider.Api\obj\Debug\net8.0\swae.build.ex.cache

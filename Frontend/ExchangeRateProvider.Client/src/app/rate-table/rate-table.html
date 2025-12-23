@@ -1,17 +1,17 @@
 <div class="rate-container">
-  @if (dailyRates$ | async; as rates) {
-  <div class="header-section">
-    <h1>CNB Daily Exchange Rates</h1>
-    @if (rates.rates.length > 0) {
-    <h2>Rates valid for: {{ rates.rates[0].validFor | date : 'longDate' }}</h2>
-    }
-  </div>
-
   @if (isLoading) {
   <div class="alert alert-info">Updating rates...</div>
   } @if (errorMessage) {
   <div class="alert alert-danger">{{ errorMessage }}</div>
   }
+
+  <h1>CNB Daily Exchange Rates</h1>
+  @if (dailyRates$ | async; as rates) {
+  <div class="header-section">
+    @if (rates.rates.length > 0) {
+    <h2>Rates valid for: {{ rates.rates[0].validFor | date : 'longDate' }}</h2>
+    }
+  </div>
 
   <table class="exchange-rate-table">
     <thead>
